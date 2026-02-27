@@ -33,6 +33,7 @@ export default defineConfig({
         {
           text: 'Advanced Guides',
           items: [
+            { text: 'Styling', link: '/guide/styling' },
             { text: 'Column Layouts', link: '/guide/column-layout' },
             { text: 'Grid Layouts', link: '/guide/grid-layout' },
             { text: 'Dragging Components', link: '/guide/components' }
@@ -51,7 +52,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/alugard/alugard-drop' }
+      { icon: 'github', link: 'https://github.com/Williamboy868/alugard' }
     ]
   }
 })

@@ -15,3 +15,18 @@
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #0284c7 30%, #38bdf8 70%);
   --vp-home-hero-image-filter: blur(60px);
 }
+
+/* Force VitePress borders and dividers to be gray */
+:root {
+  --vp-c-border: rgba(156, 163, 175, 0.4) !important;
+  --vp-c-divider: rgba(156, 163, 175, 0.4) !important;
+  --vp-c-divider-light: rgba(156, 163, 175, 0.2) !important;
+  --vp-c-divider-inverse: rgba(156, 163, 175, 0.4) !important;
+}
+
+.dark {
+  --vp-c-border: rgba(156, 163, 175, 0.3) !important;
+  --vp-c-divider: rgba(156, 163, 175, 0.3) !important;
+  --vp-c-divider-light: rgba(156, 163, 175, 0.15) !important;
+  --vp-c-divider-inverse: rgba(156, 163, 175, 0.3) !important;
+}
